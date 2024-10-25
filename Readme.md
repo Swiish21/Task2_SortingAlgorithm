@@ -1,3 +1,6 @@
-These two files are two sorting algorithms, one is a quicksort algorithm, the other is a merge sort algorithm.
-The main aim of these programs is to sort a list of given integers and return a sorted list upon completion
-Comparing the two, I'd suggest that the quicksort algorithm is the faster of the two because it takes fewer steps to complete the same task that a merge sort algorithm does.
+This repository contains two different dart files that tackle two different sorting problems
+
+File 1: sort_alg tackles a quicksort challenge where we are required to implement a quicksort algorithm to sort an unordered list of integers, the program defines a funtion that has a list parameter, if the amount of items in the list is less than or equal to 1, the program returns true because a list 0 or 1 items is technically sorted. If not we define a pivot element(the one we'll to compare and sort the list with), in our case the pivot element is 0, we create two more lists onje for values greater than the pivot element and one for values lesser than the pivot element, we create a for loop that starts from 1 (because zero is already in use as a the pivot), it will compare the value of i (which changes with each iteration) to the pivot element, if greater than the PE it will be sorted into the greater list, if less, into the less list, after the loop is done going through the unordered list.
+it combines the less than list, pivot and greater than list in that respective into a single ordered list, we then print out the final ordered list and the program stops.
+
+File 2: sort_alg2 
